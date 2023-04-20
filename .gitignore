@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Archivos de sistema IOs
+.DS_Store
+
+# Archivos de video
+.mp4

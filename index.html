@@ -61,10 +61,14 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Dime tu nombre</a></li>
-                <li><a class="dropdown-item disabled" href="#">Calculadora</a></li>
+                <li>
+                  <a class="dropdown-item disabled" href="#">Calculadora</a>
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item disabled" href="#">Something else here</a>
+                  <a class="dropdown-item disabled" href="#"
+                    >Something else here</a
+                  >
                 </li>
               </ul>
             </li>
@@ -75,6 +79,111 @@
         </div>
       </div>
     </nav>
+    <!-- Acerca de -->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <h1>Sergio Torres</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>Desarrollador de artes oscuras</h3>
+        </div>
+        <div class="col-12 col-md-6"><h3>DJ de noche</h3></div>
+      </div>
+    </div>
+    <!-- Carrosel -->
+    <div class="container mt-4 text-center">
+      <div class="row justify-content-center">
+        <!-- Carrosel -->
+        <div class="col-9 mb-2">
+          <div
+            id="carouselExample"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img
+                  src="./assets/img/ninja01.jpg"
+                  class="d-block w-100 rounded"
+                  alt="Ninja en espera"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./assets/img/ninja02.jpg"
+                  class="d-block w-100 rounded"
+                  alt="Ninja dando patada"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./assets/img/ninja03.jpg"
+                  class="d-block w-100 rounded"
+                  alt="Mujer ninja"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./assets/img/ninja04.jpg"
+                  class="d-block w-100 rounded"
+                  alt="Ninjas con katana"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- descripción carrosel -->
+        <div class="col-12 col-lg-3">
+          <!-- Descripción -->
+          <div class="row">
+            <div class="col">
+              <p>
+                Me inicié como desarrollador con técnicas ninjas Lorem ipsum,
+                dolor sit amet consectetur adipisicing elit. Quam, inventore.
+                Aut magni iure molestiae nihil. Reprehenderit totam
+                exercitationem deleniti commodi, delectus impedit praesentium
+                unde autem porro vitae dolorum aut quibusdam.
+              </p>
+            </div>
+          </div>
+          <!-- Botón linkedin -->
+          <div class="row">
+            <div class="col">
+              <a href="https://www.linkedin.com/in/smanueltorres/" target="_blank" >
+                <button type="button" class="btn btn-dark">Contáctame</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
